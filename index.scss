@@ -7,7 +7,6 @@
 }
 
 body {
-  margin: 50px 0;
   background-color: #fafafa;
 }
 
@@ -27,14 +26,20 @@ span {
 
 // Page Styling Starts
 
+.intro {
+  margin: 50px 0;
+}
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
+  line-height: 30px;
 }
 
 .desc {
   text-align: center;
   color: #757575;
+  line-height: 24px;
 }
 
 // Nagivation Section
@@ -45,6 +50,7 @@ h2 {
   h4 {
     text-align: center;
     margin-bottom: 60px;
+    line-height: 28px;
   }
 
   .navigation-buttons {
@@ -58,6 +64,8 @@ h2 {
       color: #c62828;
       border: 1px solid #c62828;
       padding: 12px 30px;
+      line-height: 24px;
+      border-radius: 6px;
 
       span {
         font-size: 13px;
@@ -73,6 +81,15 @@ h2 {
         }
       }
     }
+  }
+}
+
+.active {
+  color: #ffffff !important;
+  background-color: #c62828;
+
+  span {
+    color: #bdbdbd !important;
   }
 }
 

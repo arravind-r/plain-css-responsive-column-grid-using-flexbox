@@ -1,0 +1,50 @@
+// General
+.code {
+  font-family: monospace;
+}
+
+// Container Width - You can set any width according to your preference
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+//  Row
+.row {
+  display: ;
+}
+
+// Cell Styling
+.cell {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 20px 0 rgba(150, 150, 150, 0.2);
+  border-radius: 6px;
+
+  p {
+    font-size: 16px;
+    // font-weight: 700;
+    color: #212121;
+  }
+
+  .code {
+    color: #1a237e;
+    font-weight: 700;
+    margin-top: 12px;
+  }
+}
+
+.cell-12 {
+  width: 100%;
+}
+
+.cell-6 {
+  width: 50%;
+}
+
+.one {
+  border: 2px solid #1a237e;
+  background-color: #e8eaf6;
+}

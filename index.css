@@ -6,7 +6,6 @@
 }
 
 body {
-  margin: 50px 0;
   background-color: #fafafa;
 }
 
@@ -24,14 +23,20 @@ span {
   color: #424242;
 }
 
+.intro {
+  margin: 50px 0;
+}
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
+  line-height: 30px;
 }
 
 .desc {
   text-align: center;
   color: #757575;
+  line-height: 24px;
 }
 
 .navigation-wrap {
@@ -41,6 +46,7 @@ h2 {
 .navigation-wrap h4 {
   text-align: center;
   margin-bottom: 60px;
+  line-height: 28px;
 }
 
 .navigation-wrap .navigation-buttons {
@@ -62,6 +68,8 @@ h2 {
   color: #c62828;
   border: 1px solid #c62828;
   padding: 12px 30px;
+  line-height: 24px;
+  border-radius: 6px;
 }
 
 .navigation-wrap .navigation-buttons a span {
@@ -76,6 +84,15 @@ h2 {
 
 .navigation-wrap .navigation-buttons a:hover span {
   color: #bdbdbd;
+}
+
+.active {
+  color: #ffffff !important;
+  background-color: #c62828;
+}
+
+.active span {
+  color: #bdbdbd !important;
 }
 
 @media screen and (max-width: 800px) {
